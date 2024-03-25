@@ -65,7 +65,7 @@ function MessageInput({ sendMessage, message, setMessage, image, setImage }) {
     );
   };
 
-  const handleEmojiClick = (emojiData, event) => {
+  const handleEmojiClick = (emojiData) => {
     // Append the selected emoji to the message state
     setMessage((prevMessage) => prevMessage + emojiData.emoji);
   };

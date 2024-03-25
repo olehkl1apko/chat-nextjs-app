@@ -15,7 +15,7 @@ import { firestore } from "@/lib/firebase.config";
 import MessageCard from "./MessageCard";
 import MessageInput from "./MessageInput";
 
-function ChatRoom({ user, selectedChatroom }) {
+function ChatRoom({ selectedChatroom }) {
   const me = selectedChatroom?.myData;
   const other = selectedChatroom?.otherData;
   const chatRoomId = selectedChatroom?.id;

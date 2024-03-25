@@ -48,7 +48,7 @@ function page() {
       <div className="flex-grow w-9/12">
         {selectedChatroom ? (
           <>
-            <ChatRoom user={user} selectedChatroom={selectedChatroom} />
+            <ChatRoom selectedChatroom={selectedChatroom} />
           </>
         ) : (
           <>
